@@ -1,0 +1,188 @@
+/* .button {
+  width: 200px;
+  height: 50px;
+} */
+/* Add these styles to your CSS file */
+.homemain {
+  background-image: url("/public/comp.jpg");
+  /* background-color: hsla(319, 76%, 5%, 0.3); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.tab {
+  overflow-y: auto;
+  overflow-x: hidden; /* Add vertical scrollbar only */
+  max-height: 700px;
+  display: flex;
+  justify-content: center;
+
+  /* Set a maximum height for the table container */
+}
+
+.table {
+  border-collapse: collapse;
+  border: 2px solid #181717;
+
+  width: 1000px;
+}
+.table th,
+.table td {
+  border: 1px solid #0e0d0d;
+  padding: 8px;
+  text-align: center; /* Align text horizontally to the center */
+  vertical-align: middle; /* Align text vertically to the middle */
+}
+.table th {
+  background-color: #d2ced7;
+  font-size: 20px;
+}
+
+.table td {
+  border: 1px solid #433434;
+  padding: 8px;
+  /* text-align: center; */
+}
+/* .table tr {
+  text-align: center;
+} */
+
+.table tr:nth-child(even) {
+  background-color: #e9eaf4;
+}
+
+.table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.table td p {
+  margin: 0;
+}
+
+.table td a {
+  color: #36262e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.butt {
+  border: #120c0c solid 2px;
+  padding: 20px;
+  margin-left: 0px;
+  text-align: left;
+  width: 200px;
+  height: 60px;
+}
+.table caption {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #1b1a1c;
+}
+.imag {
+  margin: 10px;
+}
+/* .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  padding: 5px;
+  background-color: rgb(156, 176, 176);
+} */
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  background-color: rgb(112, 103, 103);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 50px;
+  margin-left: 10px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.home {
+  display: grid;
+  margin: 20px;
+}
+
+.submit-btn {
+  width: 100px;
+  height: 40px;
+  margin: 0px;
+  text-align: center;
+  padding: 1px;
+  background-color: rgb(218, 224, 224);
+}
+
+.logout-btn {
+  width: 100px;
+  height: 40px;
+  margin: 0px;
+  text-align: center;
+  padding: 1px;
+}
+.header {
+  /* background-color: #314848; */
+  color: #c7b2b2;
+  padding: 10px 0;
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  gap: 90px;
+}
+.logo {
+  position: fixed;
+  height: 60px;
+  width: 70px; /* Adjust the height as needed */
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+/* .header ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.header ul li:last-child {
+  margin-left: 1600px;
+} */
+
+.header a {
+  color: c7b2b2;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
